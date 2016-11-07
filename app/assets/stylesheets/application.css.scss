@@ -1,0 +1,203 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* Footer */
+footer {
+  width: 1116px !important;
+  border: 0px !important;
+  margin: auto;
+}
+.footersection {
+  width: 251px;
+  margin: 0 14px;
+  float: left;
+}
+.footersection h3 {
+  height: 41px;
+  line-height: 42px;
+  font-size: 12px;
+  letter-spacing: 0.24em;
+  font-family:'Brandon Grot W01 Bold';
+  background: url("http://i.stack.imgur.com/7GfXl.png") 0px 0px no-repeat;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #a5a5a5 !important;
+
+}
+.footersection p {
+  font-family: Times, "Times New Roman", serif !important;
+  font-size: 15px !important;
+  line-height: 24px !important;
+  color: #a5a5a5 !important;
+}
+.footersection a {
+  color: #005598;
+  text-decoration: underline;
+  -webkit-transition: all 500ms ease-in;
+  -o-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+.footersection a:hover {
+  text-decoration: none;
+  -webkit-transition: all 500ms ease-in;
+  -o-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+#payment-options {
+  float: left;
+}
+.payment-option {
+  margin-left: 0px;
+  margin-right: 24px;
+}
+#subfooter {
+  margin-top: 40px;
+  clear: both !important;
+  height: 60px;
+  background: #f1f1f1;
+  font-family:'Brandon Grot W01 Medium';
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  color: #bebebe;
+  text-transform: uppercase;
+}
+#subfooter div#wrappthefooter {
+  width: 1088px;
+  margin: auto;
+  //padding: 20px 0 0 0;
+  font-size: 9px;
+  line-height: 27px;
+}
+#subfooter #about-module {
+  float: right;
+  margin-right: 0px !important;
+}
+#subfooter #about-module .ft-share {
+  float: right !important;
+  margin: 0 0 6px 6px !important;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+/* Sub-Footer */
+/* ==================================== */
+
+#sub-footer {
+  width:884px;
+  margin:0 auto 70px;
+  padding-top:34px;
+  border-top:1px solid #e2e2e2;
+}
+
+.footer-left-content{
+  margin:0;
+  float:left;
+}
+
+#shopify-attr {
+  margin-top:0;
+  color:#aaaaaa;
+  font-size:12px;
+  line-height:14px;
+}
+
+.footer-nav {
+  margin-bottom:14px;
+  line-height:14px;
+}
+
+.footer-nav a {
+  font-size:13px;
+  display:-moz-inline-stack;
+  display:inline-block;
+  zoom:1;
+  *display:inline;
+  padding-right:10px;
+}
+
+.footer-nav a,#shopify-attr a { color:#999999; }
+.footer-nav a:hover, #shopify-attr a:hover { color:#888888; }
+
+#payment-options {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  float:right;
+  height:35px;
+  display:block;
+  position:relative;
+  top:-10px;
+}
+
+.payment-option {
+  float:right;
+  display:block;
+  height:35px;
+
+
+  background:url('//cdn.shopify.com/s/files/1/0188/3162/t/4/assets/payment-sprite.png?13374551464845434549') no-repeat 0 0;
+
+  text-indent:-9999px;
+}
+
+#pay-paypal {
+  width:64px;
+  background-position:-11px -6px;
+}
+#pay-visa {
+  width:52px;
+  background-position:-109px -5px;
+}
+#pay-mastercard {
+  width:50px;
+  background-position:-191px -5px;
+}
+#pay-amex {
+  width:37px;
+  background-position:-270px -5px;
+}
+#pay-discover {
+  width:69px;
+  background-position:-331px -5px;
+}
+#pay-cirrus {
+  width:49px;
+  background-position:-426px -5px;
+}
+#pay-maestro {
+  width:47px;
+  background-position:-504px -5px;
+}
+#pay-google {
+  width:131px;
+  background-position:-579px -5px;
+}
+#pay-dankort {
+  width:54px;
+  background-position:-730px -5px;
+}
+

@@ -9,6 +9,9 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 <style>
+
+
+
   #navbar-primary .navbar-nav {
     width: 100%;
     text-align: center;
@@ -58,29 +61,27 @@
     background-color: #008CBA;
     color: white;
   }
-  .footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #f5f5f5;
-  }
-  footer ul {
-    list-style: none;
-    padding-left: 0;
-  }
 
-  footer ul li {
-    display: inline;
-    margin-right: 1em;
+  #footer {
+    border-top: 1px solid #e2e2e2;
+    width: 884px;
+  }
+  footer {
+    width: 1116px !important;
+    border: 0px !important;
+    margin: auto;
   }
 
-  footer ul li a {
-    text-transform: uppercase;
-    font-weight: bold;
+  .footersection {
+    width: 251px;
+    margin: 0 14px;
+    float: left;
   }
 
-
+  #pay-paypal {
+    width: 64px;
+    background-position: -11px -6px;
+  }
 
 </style>
 
@@ -145,16 +146,111 @@
   </body>
 
 
-<footer class="footer">
-  <div class="container">
-    <br>
-    <br />
-  <ul class="pull-right">
-    <li><a href="#">Help</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Sign in</a></li>
-  </ul>
+<footer id="footer">
+
+  <!-- Payments -->
+  <div class="footersection">
+
+    <h3 class="text-center">Payment Info</h3>
+
+
+    <ul id="payment-options" class="clearfix">
+
+
+
+      <li class="payment-option" id="pay-paypal">PayPal</li>
+
+
+
+      <li class="payment-option" id="pay-mastercard">Mastercard</li>
+      <li class="payment-option" id="pay-visa">Visa</li>
+    </ul>
+
+
   </div>
+  <!-- End Payments -->
+
+  <!-- Shipping -->
+  <div class="footersection">
+
+    <h3 class="text-center">Terms &amp; Conditions</h3>
+    <p>We ship worldwide with the Spanish postal service. All packages will be sent with a tracking number.<br>
+      <a href="/pages/terms-conditions">Read more</a></p>
+
+  </div>
+  <!-- End Shipping -->
+
+  <!-- NEWS and UPDATES -->
+  <div class="footersection">
+
+    <h3 class="text-center">NEWS &amp; UPDATES</h3>
+    <p>
+      For news and updates please follow
+      us on our <a href="http://adablackjack.tumblr.com/" target="_blank">Tumblr</a> blog, subscribe on
+      <a href="https://www.facebook.com/AdaBlackjack" target="_blank">Facebook</a> or follow us on <a href="https://twitter.com/adablackjack" target="_blank">Twitter</a>.
+    </p>
+
+  </div>
+  <!-- End NEWS and UPDATES -->
+
+  <!-- FAQ and CONTACT -->
+  <div class="footersection">
+
+    <h3 class="text-center">CONTACT</h3>
+    <p>
+      If you have any questions or inquiries about our products,
+      please send us an email: <a href="mailto:melisakhan@live.com">melisakhan@live.com</a>.
+      We´d love to hear from you!
+    </p>
+
+  </div>
+  <!-- End FAQ and CONTACT -->
+
+  <br class="clear">
+
 </footer>
+<br class="clear">
+<!-- Sub footer !-->
+<div id="subfooter">
+  <div id="wrappthefooter">
+
+    <!-- Begin MailChimp Signup Form -->
+    <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+      /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+      <form>
+        <label for="mce-EMAIL">Subscribe to our mailing list</label>
+        <input type="email" value="" name="EMAIL" class="email hint" id="mce-EMAIL" placeholder="Subscribe to our mailing list" required="">
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+
+
+    <div class="ft-module one-third" id="about-module">
+      <a id="ft-share-twitter" class="ft-share ir" href="http://www.twitter.com/AdaBlackjack" target="_blank">Twitter</a>
+      <a id="ft-share-facebook" class="ft-share ir" href="https://www.facebook.com/AdaBlackjack" target="_blank">Facebook</a>
+      <a id="ft-share-tumblr" class="ft-share ir" href="http://adablackjack.tumblr.com/" target="_blank">Tumblr</a>
+      <a id="ft-share-pinterest" class="ft-share ir" href="http://pinterest.com/adablackjack/" target="_blank">Pinterest</a>
+
+
+
+
+
+    </div>
+
+
+
+    <p style="text-color: black">Copyright © 2016 MK.</p>
+
+    <br class="clearfix">
+
+  </div>
+</div>
 
 </html>
