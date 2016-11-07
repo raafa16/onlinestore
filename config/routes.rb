@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'product/inspiration'
   get 'product/about'
-  get 'product/cart'
+  post 'product/cart'
   get 'product/contact'
 
 
