@@ -33,11 +33,13 @@ footer {
   font-size: 12px;
   letter-spacing: 0.24em;
   font-family:'Brandon Grot W01 Bold';
-  //background: url("//i.stack.imgur.com/7GfXl.png") 0px 0px no-repeat;
+  //border-bottom-style: solid;
+  border-bottom: 1px solid lightgrey;
+  //border-top-style: solid;
+  border-top: 1px solid lightgrey;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #a5a5a5 !important;
-
 }
 .footersection p {
   font-family: Times, "Times New Roman", serif !important;
@@ -71,7 +73,7 @@ footer {
   margin-top: 40px;
   clear: both !important;
   height: 60px;
-  background: #f1f1f1;
+  //background: #f1f1f1;
   font-family:'Brandon Grot W01 Medium';
   font-size: 12px;
   letter-spacing: 0.09em;
@@ -200,5 +202,66 @@ h3 {
   width:54px;
   background-position:-730px -5px;
 }
+
+//sign up form starts here
+
+/* MailChimp Form Embed Code - Slim - 08/17/2011 */
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color: #ddd;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}
+#mc_embed_signup .clear {clear:none; display:inline;}
+
+#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+#mc_embed_signup input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:58%; min-width:130px;}
+#mc_embed_signup input.button {display:block;width:35%;margin:0 0 10px 0;min-width:90px;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+
+/* ABOUT MODULE */
+
+#about-description {
+  margin-bottom:26px;
+}
+
+
+#about-module .ft-share, #blog-share-rss {
+  display:block;
+  float:left;
+  height:23px;
+  width:23px;
+  background:url('//cdn.shopify.com/s/files/1/0188/3162/t/4/assets/share-icons-sprite.png?13374551464845434549') no-repeat;
+  margin-right:6px;
+  margin-bottom:6px;
+  border-bottom:none;
+  position:relative;
+}
+
+#about-module #ft-share-twitter { background-position:-5px -11px; }
+#about-module #ft-share-facebook {background-position:-34px -11px;}
+#about-module #ft-share-tumblr { background-position:-63px -11px; }
+#about-module #ft-share-rss, #blog-share-rss { background-position:-92px -11px; }
+#about-module #ft-share-pinterest { background-position:-717px -10px; }
+#about-module #ft-share-youtube { background-position:-687px -10px; }
+#about-module #ft-share-vimeo { background-position:-657px -10px; }
+
+#about-module #ft-share-twitter:hover { background-position:-5px -45px; }
+#about-module #ft-share-facebook:hover { background-position:-34px -45px; }
+#about-module #ft-share-tumblr:hover { background-position:-63px -45px; }
+#about-module #ft-share-rss:hover, #blog-share-rss:hover { background-position:-92px -45px; }
+#about-module #ft-share-pinterest:hover { background-position:-717px -44px; }
+#about-module #ft-share-youtube:hover { background-position:-687px -44px; }
+#about-module #ft-share-vimeo:hover { background-position:-657px -44px; }
 
 
