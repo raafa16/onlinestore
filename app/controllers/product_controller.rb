@@ -17,4 +17,8 @@ class ProductController < ApplicationController
     
   end
 
+  def terms_and_conditions
+
+  end
+
 end
