@@ -6,14 +6,13 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <%=image_tag("bag1.jpg",:size => "1600x900")%>
+        <%=image_tag("slide1.jpg",:size => "1600x900")%>
         <div class="carousel-caption">
           <h3>Chania</h3>
           <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
@@ -21,7 +20,7 @@
       </div>
 
       <div class="item">
-        <%=image_tag("pic1.jpg",:size => "1600x900") %>
+        <%=image_tag("slide2.jpg",:size => "1600x900") %>
         <div class="carousel-caption">
           <h3>Chania</h3>
           <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
@@ -29,18 +28,10 @@
       </div>
 
       <div class="item">
-        <%=image_tag("pic2.jpg",:size => "1600x900")%>
+        <%=image_tag("slide3.jpg",:size => "1600x900")%>
         <div class="carousel-caption">
           <h3>Flowers</h3>
           <p>Beatiful flowers in Kolymbari, Crete.</p>
-        </div>
-      </div>
-
-      <div class="item">
-        <%=image_tag("pic3.jpg", height: 900, width: 1600)%>
-        <div class="carousel-caption">
-          <h3>Flowers</h3>
-          <p>Beautiful flowers in Kolymbari, Crete.</p>
         </div>
       </div>
 
@@ -56,5 +47,39 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+
+
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="gallery">
+        <div class="images">
+          <div class="image active">
+            <div class="content" style="background-image: url('/assets/product_front.jpg')"></div>
+          </div>
+          <div class="image">
+            <div class="content" style="background-image: url('/assets/product_side.jpg')"></div>
+          </div>
+          <div class="image">
+            <div class="content" style="background-image: url('/assets/product_inside.jpg')"></div>
+          </div>
+          <div class="image">
+            <div class="content" style="background-image: url('/assets/product_back.jpg')"></div>
+          </div>
+        </div>
+        <div class="thumbs">
+          <div class="thumb active" style="background-image: url('/assets/product_front.jpg')"></div>
+          <div class="thumb" style="background-image: url('/assets/product_side.jpg')"></div>
+          <div class="thumb" style="background-image: url('/assets/product_inside.jpg')"></div>
+          <div class="thumb" style="background-image: url('/assets/product_back.jpg')"></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-sm-4">
+        ADD TO CART!
+    </div>
+
+  </div>
+
 </div>
 
