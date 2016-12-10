@@ -17,7 +17,6 @@
 //= require_tree .
 
 
-$(function () {
+document.addEventListener('turbolinks:load',function () {
     $('.gallery').gallery();
 });
-

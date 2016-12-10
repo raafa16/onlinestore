@@ -1,4 +1,4 @@
-$(document).ready(function ($) {
+document.addEventListener("turbolinks:load",function ($) {
   var gallery = function () {
     var $elem = $(this);
     var activatedImage

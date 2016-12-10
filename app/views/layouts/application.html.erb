@@ -131,7 +131,7 @@
               <% if current_page?( '/product/shop') %>
                   <li class="active"><%= link_to 'Shop', product_shop_path, :class => 'navbar-link' %></li>
               <%else%>
-                  <li><%= link_to 'Shop', product_shop_path, :class => 'navbar-link' %></li>
+                  <li><%= link_to 'Shop', product_shop_path,  :class => 'navbar-link'  %></li>
               <%end%>
 
               <% if current_page?( '/product/contact') %>
@@ -238,8 +238,10 @@
       <div class="footer-social">
         <span style="font-size: medium">Connect with us:</span>
         <ul>
-          <li><a href="https://www.facebook.com/melisa.khan.7"><img src='https://cdn0.iconfinder.com/data/icons/social-media-and-logos-free-3/32/facebook_social_media_logo-32.png' /></a></li>
-          <li><a href="https://www.instagram.com/melisakhan101/"><img src='https://cdn0.iconfinder.com/data/icons/social-media-and-logos-free-3/32/instagram_social_media_logo-32.png' /></a></li>
+          <li><%= link_to image_tag("https://cdn0.iconfinder.com/data/icons/social-media-and-logos-free-3/32/facebook_social_media_logo-32.png", :alt => "Facebook"), "https://www.facebook.com/Melisa-Khan-1287013314694783/", :target => "_blank" %>
+          </li>
+          <li><%= link_to image_tag("https://cdn0.iconfinder.com/data/icons/social-media-and-logos-free-3/32/instagram_social_media_logo-32.png", :alt => "Instagram"), "https://www.instagram.com/melisakhan101/", :target => "_blank" %>
+          </li>
         </ul>
       </div>
     </div>
