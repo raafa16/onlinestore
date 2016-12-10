@@ -1,4 +1,4 @@
-;(function ($) {
+$(document).ready(function ($) {
   var gallery = function () {
     var $elem = $(this);
     var activatedImage

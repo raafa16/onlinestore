@@ -25,25 +25,12 @@
 .image_tag
 {
   position: relative;
-  max-width: 100%;
+  max-width: inherit;
   //top: 10%;
  // left: 10%;
   border-radius: 3px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.9);
 }
-
-.image_tag:empty
-{
-  //top: 50%;
-  //left: 50%;
-
-  //-webkit-transform: translate(-50%, -50%);
-  //-moz-transform: translate(-30%, -30%);
-  //-ms-transform: translate(-50%, -50%);
-  //-o-transform: translate(-50%, -50%);
-  //transform: translate(-50%, -50%);
-}
-
 
 //ADD TO CART reset.css begins here
 /* http://meyerweb.com/eric/tools/css/reset/
