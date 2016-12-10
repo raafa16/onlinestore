@@ -119,6 +119,7 @@
               <%else%>
                   <li><%= link_to 'Home', product_index_path, :class => 'navbar-link' %></li>
               <%end%>
+
               <% if current_page?( '/product/about') %>
                   <li class="active"><%= link_to 'About', product_about_path, :class => 'navbar-link' %></li>
               <%else%>
@@ -127,10 +128,10 @@
 
               <li><%=link_to image_tag('reallogo.jpg', alt:"logo", :width =>190, :height =>190, class: 'logo-navbar-middle'), product_index_path%></li>
 
-              <% if current_page?( '/product/inspiration') %>
-                  <li class="active"><%= link_to 'Inspiration', product_inspiration_path, :class => 'navbar-link' %></li>
+              <% if current_page?( '/product/shop') %>
+                  <li class="active"><%= link_to 'Shop', product_shop_path, :class => 'navbar-link' %></li>
               <%else%>
-                  <li><%= link_to 'Inspiration', product_inspiration_path, :class => 'navbar-link' %></li>
+                  <li><%= link_to 'Shop', product_shop_path, :class => 'navbar-link' %></li>
               <%end%>
 
               <% if current_page?( '/product/contact') %>
@@ -138,6 +139,7 @@
               <%else%>
                   <li><%= link_to 'Contact', product_contact_path, :class => 'navbar-link' %></li>
               <%end%>
+
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

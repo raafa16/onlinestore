@@ -17,6 +17,10 @@ class ProductController < ApplicationController
     
   end
 
+  def shop
+
+  end
+
   def terms_and_conditions
 
   end
